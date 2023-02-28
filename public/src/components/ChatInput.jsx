@@ -16,7 +16,6 @@ export default function ChatInput({ handleSendMsg }) {
   return (
     <Container>
       <div className="button-container">
-        
       </div>
       <form className="input-container" onSubmit={(event) => sendChat(event)}>
         <input
